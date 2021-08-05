@@ -42,8 +42,9 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "pages"
     label: "Pages"
+    preview_path: /about-preview
     editor:
-      # preview: false
+      preview: true
     files:
       - label: "About Page"
         name: "about"
