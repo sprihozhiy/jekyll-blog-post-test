@@ -6,6 +6,7 @@ backend:
   repo: sprihozhiy/jekyll-blog-post-test
 publish_mode: editorial_workflow
 media_folder: "assets/uploads"
+public_folder: "/"
 collections:
   - name: "blog"
     label: "Blog"
