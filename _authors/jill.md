@@ -1,7 +1,6 @@
 ---
-name: jill
-display_name: Jill Smith
-position: Chief Editor
+name: Serhii
+display_name: Serhii Prykhozhyi
+position: Web developer
 ---
-
-Jill is an avid fruit grower based in the south of France.
+Serhii is a web developer from Calgary.
