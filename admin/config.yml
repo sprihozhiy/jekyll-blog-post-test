@@ -13,8 +13,8 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     preview_path: blog/{{slug}}
-    editor:
-      preview: true
+    # editor:
+    #   preview: true
     fields: # The fields for each document, usually in front matter
       - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
       - { label: "Title", name: "title", widget: "string" }
@@ -43,13 +43,13 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "pages"
     label: "Pages"
-    preview_path: /about-preview
-    editor:
-      preview: true
+    # editor:
+    #   preview: true
     files:
       - label: "About Page"
         name: "about"
         file: "about.md"
+        preview_path: about-preview
         fields:
           - {
               label: "Title",
